@@ -4,7 +4,7 @@ This repository hosts an automated workflow for crystallographic slip trace iden
 
 ---
 
-## 🛠️ Core Features
+## Core Features
 
 * **Data Cleanup:** Automatic Euler-to-spatial alignment, scanning artifact purging, and grain boundary smoothing.
 * **Trace Analysis:** Direct overlay of theoretical surface slip traces on Inverse Pole Figure (IPF) maps.
@@ -14,7 +14,7 @@ This repository hosts an automated workflow for crystallographic slip trace iden
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 * **`main.m`** – *Master Script:* Automates loop runs, scans input folders, exports plots, and graphs aggregate stats.
 * **`EBSD_processing.m`** – *Data Preparation:* Handles file import, angular corrections, grain sizing filters, and spline smoothing.
@@ -23,7 +23,7 @@ This repository hosts an automated workflow for crystallographic slip trace iden
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 1. Download all repository `.m` files into a single local workspace folder.
 2. Ensure **MATLAB** and the **MTEX Toolbox** are installed and added to your active path.
